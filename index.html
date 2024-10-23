@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDG</title>
+    <link rel="icon" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <img
+        class="pdg"
+        src="imagenes y videos/logoPDG.jpg"
+        alt="Paso de Grado"
+        width="150"
+        height="150"
+        style="display: block; margin: 0 auto"
+      />
+      <h2>
+        El Sitio donde podrás<strong> Comprar, Vender o Intercambiar</strong>
+        productos escolares USADOS <br />TOTALMENTE
+        <strong> GRATIS y SIN INTERMEDIARIOS</strong>
+      </h2>
+    </header>
+
+    <main>
+      <h2>
+        " Todo el país, Todos los colegios!! <br />No esperes mas....regístrate
+        Ya o Inicia Sesión! "
+      </h2>
+      <br />
+      <!-- Menu 1 -->
+      <nav>
+        <a href="perfil.html">Registrarte</a>
+        <a href="iniciosesion.html">Iniciar Sesión</a>
+        <a href="help.html">Ayuda</a>
+      </nav>
+      <br />
+      <!-- Menu 2 -->
+      <nav>
+        <a href="ubicacionv.html"> Vender </a>
+        <a href="ubicacionc.html"> Comprar </a>
+        <a href="intercambiar.html"> Intercambiar </a>
+        <a href="/comprar/carrito/miscompras.html">Mi Carrito</a>
+      </nav>
+
+      <!-- Buscador -->
+      <form id="buscador">
+        <input
+          type="text"
+          id="buscar"
+          placeholder="Buscar productos de Intercambio"
+        />
+        <button id="boton-buscar">Buscar</button>
+        <div id="resultados"></div>
+      </form>
+
+      <script src="script.js"></script>
+      <div>
+        <h4>También podes comprar por rubro<br /></h4>
+      </div>
+      <br />
+    </main>
+    <!-- Menu 3 -->
+    <section>
+      <!-- Flex container -->
+      <div class="container">
+        <!-- Flex items -->
+        <div class="item">
+          <img
+            src="imagenes y videos/libros.jpeg"
+            alt="Paso de Grado"
+            style="display: block; margin: 0 auto"
+          />
+          <nav><a href="/comprar/comprarlibros.html"> Libros </a></nav>
+        </div>
+        <div class="item">
+          <img
+            src="imagenes y videos/zapatos.png"
+            alt="Paso de Grado"
+            style="display: block; margin: 0 auto"
+          />
+          <nav><a href="/comprar/comprocalzado.html"> Calzado </a></nav>
+        </div>
+        <div class="item">
+          <img
+            src="imagenes y videos/indumentaria.jpg"
+            alt="Paso de Grado"
+            style="display: block; margin: 0 auto"
+          />
+          <nav>
+            <a href="/comprar/comproindumentaria.html"> Indumentaria </a>
+          </nav>
+        </div>
+        <div class="item">
+          <img
+            src="imagenes y videos/articulosescolares.png"
+            alt="Paso de Grado"
+            style="display: block; margin: 0 auto"
+          />
+          <nav>
+            <a href="/comprar/comproartlibreria.html">Librería</a>
+          </nav>
+        </div>
+        <div class="item">
+          <img
+            src="imagenes y videos/mochila.png"
+            alt="Paso de Grado"
+            style="display: block; margin: 0 auto"
+          />
+          <nav><a href="/comprar/comprootros.html">Otros</a></nav>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section>
+      <video width="300" height="300" controls>
+        <source src="imagenes y videos/presentacion.mp4" type="video/mp4" />
+        <track
+          src="subtitulos.vtt"
+          kind="subtitles"
+          srclang="es"
+          label="Español"
+        />
+      </video>
+    </section>
+    <!--Logos Redes Sociales -->
+    <footer>
+      <div class="container3">
+        <a href="whatsapp.com" target="_blank">
+          <img
+            class="logo"
+            src="/imagenes y videos/iconos/whatsapp-brands-solid.svg"
+            alt="Link a WhatsApp"
+            width="25"
+            height="25"
+          />
+        </a>
+        <a href="instagram.com" target="_blank">
+          <img
+            class="logo"
+            src="/imagenes y videos/iconos/instagram-brands-solid.svg"
+            alt="Link a Instagram"
+            width="25"
+            height="25"
+          />
+        </a>
+        <a href="facebook.com" target="_blank">
+          <img
+            class="logo"
+            src="/imagenes y videos/iconos/facebook-brands-solid.svg"
+            alt="Link a Facebook"
+            width="25"
+            height="25"
+          />
+        </a>
+        <a href="twitter.com" target="_blank">
+          <img
+            class="logo"
+            src="/imagenes y videos/iconos/x-twitter-brands-solid.svg"
+            alt="Link a Twitter"
+            width="25"
+            height="25"
+          />
+        </a>
+
+        <img
+          class="logo"
+          src="/imagenes y videos/iconos/logobanderaarg.png"
+          alt="Link a WhatsApp"
+          width="25"
+          height="25"
+        />
+      </div>
+      <!-- Version -->
+      <small>PDG - 2024 - Version Prueba 0.1</small>
+    </footer>
+  </body>
+</html>
