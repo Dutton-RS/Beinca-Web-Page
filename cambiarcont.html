@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio Sesión</title>
+    <title>Cambiar Contraseña</title>
     <link rel="icon" href="logo.ico" />
     <link rel="stylesheet" href="./css/estilos.css" />
   </head>
@@ -20,19 +20,20 @@
     </header>
 
     <main>
-      <h1>"Iniciar Sesión"</h1>
+      <h1>"-Cambiar Contraseña-"</h1>
+      <h3>"-Mínimo 8 caracteres-"</h3>
     </main>
 
     <nav>
       <form action="https://formspree.io/f/mdknqwqy" method="post">
-        <label for="usuario">Mail:</label>
-        <input type="text" id="usuario" name="usuario" required />
-        <label for="pass">Contraseña:</label>
+        <label for="cambcont">Contraseña Actual:</label>
+        <input type="text" id="cambcont" name="cambcont" required />
+        <label for="pass">Contraseña Nueva:</label>
         <input type="text" id="pass" name="pass" required />
         <button type="submit">Enviar</button>
       </form>
       <br />
-      <div><a href="index.html">SIGUIENTE</a></div>
+      <div><a href="/contrasenacambioexitoso.html">CAMBIAR</a></div>
       <br />
       <a href="index.html">Inicio</a>
     </nav>
