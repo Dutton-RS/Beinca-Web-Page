@@ -153,6 +153,27 @@ img {
   text-align: center;
 }
 
+/* Flex para logos de redes sociales */
+
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: rgb(16, 216, 206);
+  width: 10%;
+  height: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
 /* Media Query */
 
 @media only screen and (max-width: 400px) {
