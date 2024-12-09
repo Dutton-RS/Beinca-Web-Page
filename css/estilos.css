@@ -2,6 +2,8 @@ body {
   background-color: rgb(152, 213, 250);
   text-align: center;
   background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -17,6 +19,12 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
 }
 
+footer {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+}
 h1 {
   color: rgb(14, 14, 14);
   margin-left: 0px;
@@ -29,6 +37,38 @@ h3 {
 h4 {
   color: rgb(14, 14, 14);
   margin-left: 0px;
+}
+button {
+  background-color: #06b3aa;
+  color: #ffffff;
+  padding: 1% 0.5%;
+  border: 1px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 1% auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+  font-size: 100%;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+button:hover {
+  background-color: #08594c;
+  color: rgb(255, 255, 255);
+}
+
+#boton-buscar:hover {
+  background-color: #08594c;
+  color: rgb(255, 255, 255);
+}
+
+#vaciar-carrito:hover {
+  background-color: #08594c;
+}
+
+.menu-link:hover {
+  background-color: #058a74;
 }
 
 nav a {
@@ -47,6 +87,27 @@ form {
   text-align: center;
   padding: 10px 10px;
   color: rgb(247, 247, 247);
+}
+
+.ver-detalle {
+  background-color: #06b3aa;
+  color: #ffffff;
+  padding: 1% 0.5%;
+  border: 1px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 1% auto;
+  display: block;
+  width: 8%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+  font-size: 100%;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+.ver-detalle:hover {
+  background-color: #08594c;
+  color: rgb(255, 255, 255);
 }
 
 /* Buscador */
@@ -86,13 +147,21 @@ form {
   margin-top: 20px;
 }
 
+.imagen-centrada {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+}
+
 /* Flex para logos de redes sociales */
 
 .container3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: rgb(16, 216, 206);
   width: 50%;
   height: 1fr;
   justify-content: center;
@@ -107,18 +176,20 @@ form {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: rgb(231, 237, 238);
-  width: auto;
+  background: rgb(14, 216, 213);
+  width: 70%;
   height: auto;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .item {
-  background: rgb(231, 237, 238);
-  width: auto;
-  height: auto;
+  background: rgb(38, 79, 105);
+  width: 20%;
+  height: 30%;
   margin: auto;
   box-sizing: border-box;
+  padding: 20px;
 }
 
 img {
@@ -150,6 +221,7 @@ img {
   margin: 20px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
 }
+/*
 .item-2 {
   background: rgb(255, 255, 255);
   width: auto;
@@ -157,45 +229,48 @@ img {
   content: auto;
   box-sizing: border-box;
 }
-
-/*visited 
-a:link {
-  overflow: hidden;
+*/
+.items {
+  background: rgb(231, 237, 238);
+  width: auto;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 /* visited link 
-a:link {
-  padding: 20px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-/*visited 
-link 
-a:visited {
-  color: rgb(255, 255, 255);
-}
-
-/* mouse over
-link 
-a:hover {
-  color: rgb(255, 255, 255);
-}
-
-/* selected 
-link 
-a:active {
-  color: rgb(255, 255, 255);
-  background-color: #ffffff;
-}
-
-/* visited link */
 style div.gallery {
   margin: 5px;
   border: 100px solid #db0707;
   float: left;
   width: 180px;
+}
+  */
+
+table {
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.922);
+}
+
+td {
+  text-align: center;
+  border-bottom: auto solid grey;
+  padding-top: 1em;
+}
+
+.listado-productos {
+  display: grid;
+  padding: 1%;
+  gap: 0.5em;
+}
+
+.listado-productos article {
+  padding: 0.5em;
+  border: 1px solid gray;
+  height: auto;
 }
 /* Media Query */
 

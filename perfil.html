@@ -24,9 +24,9 @@
       <nav>
         <form action="https://formspree.io/f/mdknqwqy" method="post">
           <label for="fname">Nombre:</label>
-          <input type="text" id="fname" name="fname" required /><br /><br />
+          <input type="text" id="fname" name="fname" /><br /><br />
           <label for="lname">Apellido:</label>
-          <input type="text" id="lname" name="lname" required /><br /><br />
+          <input type="text" id="lname" name="lname" /><br /><br />
           <label for="birthday">Fecha de Nacimiento:</label>
           <input
             type="date"
@@ -37,21 +37,23 @@
           <label for="email">Email:</label>
           <input type="email" id="email" name="email" required /><br /><br />
           <label for="cel">Celular de Contacto:</label>
-          <input type="text" id="cel" name="cel" required /><br /><br />
+          <input type="text" id="cel" name="cel" /><br /><br />
           <label for="pass">Crear una contraseña:</label>
-          <input type="text" id="pass" name="pass" required /><br /><br />
+          <input type="text" id="pass" name="pass" /><br /><br />
           <button type="submit">Enviar</button><br />
         </form>
         <br />
-        <div><a href="perfilregistrado.html">REGISTRARSE</a></div>
+        <div>
+          <a href="perfilregistrado.html" class="menu-link">REGISTRARSE</a>
+        </div>
         <br />
-        <a href="index.html">Inicio</a>
+        <a href="index.html" class="menu-link">Inicio</a>
       </nav>
     </main>
-
-    <section></section>
-    <br />
-
-    <footer><small>2024 - Version 0.1</small><br /><br /><br /></footer>
   </body>
+  <br /><br />
+  <script src="/js/validacionformularios.js"></script>
+  <footer>
+    <div><small>PDG - 2024 - Version 0.1</small></div>
+  </footer>
 </html>

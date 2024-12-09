@@ -3,6 +3,8 @@ body {
   font-style: normal;
   font-weight: 100;
   background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -15,6 +17,17 @@ header {
   background-color: rgb(255, 255, 255);
   text-align: center;
   height: auto;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+}
+
+.menu-link:hover {
+  background-color: #058a74;
 }
 
 nav a {
@@ -69,9 +82,10 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
   background: rgb(255, 255, 255);
-
-  width: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+  width: 50%;
   height: auto;
+  margin: 0 auto;
   justify-content: center;
 }
 .item2 {
@@ -82,6 +96,13 @@ h5 {
   content: 15px;
   margin: 10px;
 }
+
+img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
 /*
 .grid-container {
   width: 100%;
@@ -130,12 +151,6 @@ h5 {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   text-align: center;
-}
-
-img {
-  width: 150px;
-  height: 150px;
-  display: block;
 }
 
 .container3 {

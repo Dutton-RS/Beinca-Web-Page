@@ -7,104 +7,34 @@
     <link rel="icon" href="/favicon-16x16.png" />
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
-  <body>
-    <header>
-      <img
-        class="pdg"
-        src="../imagenes y videos/logoPDG.jpg"
-        alt="Paso de Grado"
-        width="200"
-        height="200"
-        style="display: block; margin: 0 auto"
-      />
-    </header>
-    <main>
-      <h3>Artículos de Librería</h3>
-      <h4>" Colegio : San Pablo - Nivel : Secundaria "</h4>
-      <nav>
-        <br />
-        <div><a href="/index.html">Inicio</a></div>
-        <br />
-      </nav>
-      <section>
-        <!-- Flex container -->
-        <div class="container">
-          <!-- Flex items -->
-          <div class="item">
-            <img
-              src="/productos/imagenes utiles/Cartuchera.jpg"
-              alt="Paso de Grado"
-              style="display: block; margin: 0 auto"
-            />
-            <h5>Cartuchera</h5>
-            <nav>
-              <div>
-                <a href="/productos/imagenes utiles/cartuchera.html">Comprar</a>
-              </div>
-            </nav>
-            <h4>$12000</h4>
-          </div>
-
-          <div class="item">
-            <img
-              src="/productos/imagenes utiles/compas.jpg"
-              alt="Paso de Grado"
-              style="display: block; margin: 0 auto"
-            />
-            <h5>Compás</h5>
-            <nav>
-              <div>
-                <a href="/productos/imagenes utiles/compas.html">Comprar</a>
-              </div>
-            </nav>
-            <h4>$3000</h4>
-          </div>
-          <div class="item">
-            <img
-              src="/productos/imagenes utiles/escuadras.jpg"
-              alt="Paso de Grado"
-              style="display: block; margin: 0 auto"
-            />
-            <h5>Escuadras</h5>
-            <nav>
-              <div>
-                <a href="/productos/imagenes utiles/escuadras.html">Comprar</a>
-              </div>
-            </nav>
-            <h4>$2000</h4>
-          </div>
-          <div class="item">
-            <img
-              src="/productos/imagenes utiles/lapices.jpeg"
-              alt="Paso de Grado"
-              style="display: block; margin: 0 auto"
-            />
-            <h5>Lapices</h5>
-            <nav>
-              <div>
-                <a href="/productos/imagenes utiles/lapices.html">Comprar</a>
-              </div>
-            </nav>
-            <h4>$4000</h4>
-          </div>
-          <div class="item">
-            <img
-              src="/productos/imagenes utiles/tijera.jpeg"
-              alt="Paso de Grado"
-              style="display: block; margin: 0 auto"
-            />
-            <h5>Tijera</h5>
-            <nav>
-              <div>
-                <a href="/productos/imagenes utiles/tijera.html">Comprar</a>
-              </div>
-            </nav>
-            <h4>$1000</h4>
-          </div>
-        </div>
-      </section>
-    </main>
-    <section><div></div></section>
-    <footer></footer>
-  </body>
+  <header>
+    <img
+      class="pdg"
+      src="../imagenes y videos/logoPDG.jpg"
+      alt="Paso de Grado"
+      width="200"
+      height="200"
+      style="display: block; margin: 0 auto"
+    />
+  </header>
+  <main>
+    <h1>Articulos de Libreria</h1>
+    <nav>
+      <div><a href="/index.html" class="menu-link">Inicio</a></div>
+      <br /><br />
+      <div><a href="carrito.html" class="menu-link">Ver Carrito</a></div>
+    </nav>
+    <section class="listado-productos">
+      <article data-id="">
+        <h3></h3>
+        <p></p>
+        <p>$</p>
+        <button type="button" class="agregar">Agregar</button>
+      </article>
+    </section>
+    <!-- <script src="./js/script.js"></script> -->
+    <script src="/js/productoslibre.js"></script>
+  </main>
+  <br /><br />
+  <footer><small>PDG - 2024 - Version Prueba 0.1</small></footer>
 </html>

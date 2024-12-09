@@ -33,24 +33,24 @@
 
     <main>
       <h2>
-        " Todo el país, Todos los colegios!! <br />No esperes mas....regístrate
+        " Todo el país, Todos los colegios!! <br />No esperes mas....Regístrate
         Ya o Inicia Sesión! "
       </h2>
       <br />
       <!-- Menu 1 -->
       <nav>
-        <a href="perfil.html">Registrarte</a>
-        <a href="iniciosesion.html">Iniciar Sesión</a>
-        <a href="/miperfil.html">Mi Perfil</a>
-        <a href="/help.html">Ayuda/Contacto</a>
+        <a href="perfil.html" class="menu-link">Registrarte</a>
+        <a href="iniciosesion.html" class="menu-link">Iniciar Sesión</a>
+        <a href="/miperfil.html" class="menu-link">Mi Perfil</a>
+        <a href="/help.html" class="menu-link">Ayuda/Contacto</a>
       </nav>
       <br />
       <!-- Menu 2 -->
       <nav>
-        <a href="ubicacionv.html"> Vender </a>
-        <a href="ubicacionc.html"> Comprar </a>
-        <a href="intercambiar.html"> Intercambiar </a>
-        <a href="/comprar/carrito/miscompras.html">Mi Carrito</a>
+        <a href="ubicacionv.html" class="menu-link"> Vender </a>
+        <a href="rubroc.html" class="menu-link"> Comprar </a>
+        <a href="intercambiar.html" class="menu-link"> Intercambiar </a>
+        <a href="/comprar/carrito.html" class="menu-link">Mi Carrito</a>
       </nav>
 
       <!-- Buscador -->
@@ -58,13 +58,13 @@
         <input
           type="text"
           id="buscar"
-          placeholder="Buscar productos de Intercambio"
+          placeholder="Por el momento NO FUNCIONA"
         />
         <button id="boton-buscar">Buscar</button>
         <div id="resultados"></div>
       </form>
 
-      <script src="script.js"></script>
+      <script src="/js/script.js"></script>
       <div>
         <h3>-También puedes comprar por Rubro-<br /></h3>
       </div>
@@ -81,7 +81,9 @@
             alt="Paso de Grado"
             style="display: block; margin: 0 auto"
           />
-          <nav><a href="/comprar/comprarlibros.html"> Libros </a></nav>
+          <nav>
+            <a href="/comprar/comprarlibros.html" class="menu-link"> Libros </a>
+          </nav>
         </div>
         <div class="item">
           <img
@@ -89,7 +91,11 @@
             alt="Paso de Grado"
             style="display: block; margin: 0 auto"
           />
-          <nav><a href="/comprar/comprocalzado.html"> Calzado </a></nav>
+          <nav>
+            <a href="/comprar/comprocalzado.html" class="menu-link">
+              Calzado
+            </a>
+          </nav>
         </div>
         <div class="item">
           <img
@@ -98,7 +104,9 @@
             style="display: block; margin: 0 auto"
           />
           <nav>
-            <a href="/comprar/comproindumentaria.html"> Indumentaria </a>
+            <a href="/comprar/comproindumentaria.html" class="menu-link">
+              Indumentaria
+            </a>
           </nav>
         </div>
         <div class="item">
@@ -108,7 +116,9 @@
             style="display: block; margin: 0 auto"
           />
           <nav>
-            <a href="/comprar/comproartlibreria.html">Librería</a>
+            <a href="/comprar/comproartlibreria.html" class="menu-link"
+              >Librería</a
+            >
           </nav>
         </div>
         <div class="item">
@@ -117,7 +127,9 @@
             alt="Paso de Grado"
             style="display: block; margin: 0 auto"
           />
-          <nav><a href="/comprar/comprootros.html">Otros</a></nav>
+          <nav>
+            <a href="/comprar/comprootros.html" class="menu-link">Otros</a>
+          </nav>
         </div>
       </div>
     </section>
