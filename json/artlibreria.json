@@ -1,0 +1,47 @@
+[
+  {
+    "id": 13,
+    "nombre": "Cartuchera",
+    "descripcion": "Escolar",
+    "imagen": "Cartuchera.jpg",
+    "precio": 15000,
+    "stock": 20,
+    "detalle": "cartuchera.html"
+  },
+  {
+    "id": 14,
+    "nombre": "Compas",
+    "descripcion": "Metalico",
+    "imagen": "compas.jpg",
+    "precio": 13000,
+    "stock": 15,
+    "detalle": "compas.html"
+  },
+  {
+    "id": 15,
+    "nombre": "Set de Escuadras",
+    "descripcion": "Para diseño",
+    "imagen": "escuadras.jpg",
+    "precio": 11000,
+    "stock": 12,
+    "detalle": "escuadras.html"
+  },
+  {
+    "id": 16,
+    "nombre": "Lapices de Colores",
+    "descripcion": "De madera",
+    "imagen": "lapices.jpeg",
+    "precio": 15000,
+    "stock": 16,
+    "detalle": "lapices.html"
+  },
+  {
+    "id": 17,
+    "nombre": "Tijera",
+    "descripcion": "Plástica",
+    "imagen": "tijera.jpeg",
+    "precio": 18000,
+    "stock": 9,
+    "detalle": "tijera.html"
+  }
+]

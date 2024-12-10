@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Charlie & the Chocolate Factory",
+    "descripcion": "Libro",
+    "imagen": "charlie.webp",
+    "precio": 15000,
+    "stock": 20,
+    "detalle": "charlie.html"
+  },
+  {
+    "id": 2,
+    "nombre": "Tom's Brown School Days",
+    "descripcion": "Libro",
+    "imagen": "tombrowns.webp",
+    "precio": 13000,
+    "stock": 15,
+    "detalle": "tombrowns.html"
+  },
+  {
+    "id": 3,
+    "nombre": "To Kill a Mockingbird",
+    "descripcion": "Libro",
+    "imagen": "mokingbird.webp",
+    "precio": 11000,
+    "stock": 12,
+    "detalle": "mokingbird.html"
+  },
+  {
+    "id": 4,
+    "nombre": "Macbeth - Shakespeare",
+    "descripcion": "Libro",
+    "imagen": "macbeth.webp",
+    "precio": 15000,
+    "stock": 16,
+    "detalle": "macbeth.html"
+  },
+  {
+    "id": 5,
+    "nombre": "El Aleph - J.L.Borges",
+    "descripcion": "Libro",
+    "imagen": "elaleph.webp",
+    "precio": 18000,
+    "stock": 9,
+    "detalle": "elaleph.html"
+  }
+]
