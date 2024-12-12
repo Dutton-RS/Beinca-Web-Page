@@ -2,16 +2,19 @@ PASO DE GRADO - PDG - Sitio Web de Compra, Venta e Intercambio de Artículos Esc
 
 ACLARACIÓN PREVIA.
 
-Dado que aun no esta conectada a una base de datos, para su navegación se simularon todas las pantallas de principio a fin del circuito, de manera tal que se entienda el objetivo del proyecto.
+Dado que aun no esta conectada a una base de datos, para su navegación se simularon todas las pantallas de principio a fin del circuito de compra y venta, de manera tal que se entienda el objetivo del proyecto.
 Es por eso que para poder avanzar a la siguiente pantalla, al completar cada formulario, pedido de datos o pedido de acción, en vez de hacer click en "Enviar" (lo cual enviará los datos a Formspree), se deberá hacer click en la botón "Siguiente", "Registrarse", "Publicar", etc. que se encuentra justo debajo. De esta manera se podrá ir recorriendo todo el sitio.
+
+![alt text](/imagenes%20y%20videos/paginainicial.png)
 
 Descripción del Proyecto
 
 .Este proyecto es una plataforma web totalmente gratis, abierta a todos los ciudadanos de la Republica Argentina, dedicada a la compra, venta e intercambio de artículos escolares usados. .La plataforma abarca todos los colegios e instituciones educativas del país.
 
-.Su principal objetivo es eliminar los grupos cerrados que se crean de WhatsApp, (para los cuales hay que pedir permiso al administrador del grupo) de los distintos colegios y niveles para la Compra/Venta de estos artículos, y ofrecer una solución ordenada, simple y accesible para todos los padres, alumnos y profesores,(sin importar si pertenecen a un determinado curso), que deseen adquirir o deshacerse de artículos escolares, sin necesidad de permisos e intermediarios.
+.Su principal objetivo es eliminar los grupos cerrados que se crean de WhatsApp, (para los cuales hay que pedir permiso al administrador del grupo) de los distintos colegios y niveles para la Compra/Venta de estos artículos, y ofrecer una solución ordenada, simple y accesible para todos los padres, alumnos y profesores,(sin importar si pertenecen a un determinado grado o curso), que deseen adquirir o deshacerse de artículos escolares, sin necesidad de permisos e intermediarios.
 
-.EL SISTEMA SE ALIMENTA con la información suministrada por los usuarios que deciden registrarse, como asi también los artículos que publiquen. De esta manera, todos los artículos estarán CLASIFICADOS por Provincia / Localidad / Institución o Colegio y Nivel. La información sera CLARA, PRECISA y ÁGIL de ACCEDER.
+El Sitio Inicialmente no contara con ningún producto a la venta. ya que EL SISTEMA SE ALIMENTA con la información suministrada por los usuarios que deciden registrarse, como asi también los artículos que publiquen.
+De esta manera, todos los artículos estarán CLASIFICADOS por Provincia / Localidad / Institución o Colegio y Nivel. La información sera CLARA, PRECISA y ÁGIL de ACCEDER.
 
 LA INTENCIÓN DE ESTE PROYECTO, ES UNIR COMPRADORES CON VENDEDORES DE TODO EL PAÍS, DE TODOS LOS COLEGIOS, CON EL FIN DE QUE PUEDAN REALIZAR LAS TRANSACCIONES DE COMPRA, VENTA O INTERCAMBIO DE LOS PRODUCTOS ESCOLARES USADOS QUE YA NO UTILIZAN POR HABER PASADO DE GRADO, y ASI FORMAR LA MAYOR COMUNIDAD DE ARTÍCULOS ESCOLARES USADOS DEL PAÍS.
 
@@ -67,7 +70,8 @@ El proyecto se realizo en Visual Studio Code, en plataforma Mac, con sistema ope
 Todas las pruebas se realizaron en Navegador Safari.
 
 Se utilizaron varias clases de formularios, actualmente todos ellos conectados a Formspree. la idea es que esos datos alimenten la base de datos.
-Se utilizo Flexbox para las imágenes y Grid para diseñar los carritos de compra.
+Se crearon archivos JSON para cada rubro, los cuales alimentan el fetch de cada rubro.
+El Carrito de Compra puede combinar productos de cualquier Rubro.
 
 Tanto el logo como el video institucional es de creación propia con CANVA.
 
