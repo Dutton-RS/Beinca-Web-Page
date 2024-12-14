@@ -17,6 +17,7 @@
       style="display: block; margin: 0 auto"
     />
   </header>
+  <h1>Carrito de Compras</h1>
   <body>
     <main>
       <img
@@ -26,18 +27,29 @@
         height="20"
         style="display: block; margin: 0 auto"
       />
-      <h1>Carrito de Compras</h1>
-      <nav>
-        <br /><br />
-        <div><a href="/index.html" class="menu-link">Inicio</a></div>
-        <br />
-        <div><a href="/rubroc.html" class="menu-link">Seguir Comprando</a></div>
-        <br />
-        <div><button id="vaciar-carrito">Borrar Carrito</button></div>
-        <br />
-
-        <div id="listado-productos"></div>
+      <!-- Contador -->
+      <table>
+        <thead>
+          <tr>
+            <th>Cantidad de Unidades</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td id="TotalUnidades">0.00</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br /><br />
+      <nav class="menu">
+        <a href="/index.html" class="menu-link">Inicio</a>
+        <a href="/rubroc.html" class="menu-link">Seguir Comprando</a>
       </nav>
+      <button id="vaciar-carrito">Borrar Carrito</button>
+      <br />
+
+      <div id="listado-productos"></div>
+
       <section class="carrito">
         <table>
           <thead>

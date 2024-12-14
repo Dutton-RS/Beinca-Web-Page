@@ -21,31 +21,26 @@
 
     <main>
       <h1>A continuación completa tus datos personales.</h1>
+
+      <form action="https://formspree.io/f/mdknqwqy" method="post">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="birthday">Fecha de Nacimiento:</label>
+        <input type="date" id="birthday" name="birthday" required /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="cel">Celular de Contacto:</label>
+        <input type="text" id="cel" name="cel" /><br /><br />
+        <label for="pass">Crear una contraseña:</label>
+        <input type="text" id="pass" name="pass" /><br /><br />
+        <button type="submit">Enviar</button><br />
+      </form>
+      <br />
       <nav>
-        <form action="https://formspree.io/f/mdknqwqy" method="post">
-          <label for="fname">Nombre:</label>
-          <input type="text" id="fname" name="fname" /><br /><br />
-          <label for="lname">Apellido:</label>
-          <input type="text" id="lname" name="lname" /><br /><br />
-          <label for="birthday">Fecha de Nacimiento:</label>
-          <input
-            type="date"
-            id="birthday"
-            name="birthday"
-            required
-          /><br /><br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br /><br />
-          <label for="cel">Celular de Contacto:</label>
-          <input type="text" id="cel" name="cel" /><br /><br />
-          <label for="pass">Crear una contraseña:</label>
-          <input type="text" id="pass" name="pass" /><br /><br />
-          <button type="submit">Enviar</button><br />
-        </form>
-        <br />
-        <div>
-          <a href="perfilregistrado.html" class="menu-link">REGISTRARSE</a>
-        </div>
+        <a href="perfilregistrado.html" class="menu-link">REGISTRARSE</a>
+
         <br />
         <a href="index.html" class="menu-link">Inicio</a>
       </nav>

@@ -26,6 +26,7 @@ function renderizarCarrito() {
 
   actualizarTotal();
   actualizarCantidadTotal();
+  actualizarTotalUnidades();
   agregarEventosEliminar();
 }
 
@@ -51,6 +52,17 @@ function calcularCantidadTotal() {
 function actualizarCantidadTotal() {
   const cantidadTotalCarrito = document.getElementById("CantidadTotal");
   cantidadTotalCarrito.textContent = `${calcularCantidadTotal()}`;
+}
+
+//--Calcular Total Q-CARRITO-----------------------------------------------------
+function calcularTotalUnidades() {
+  return carrito.reduce((total, item) => (total += item.cantidad), 0);
+}
+
+//-Actualiza el Total Q- CARRITO-----------------------------------------------------
+function actualizarTotalUnidades() {
+  const cantidadTotalCarrito = document.getElementById("TotalUnidades");
+  cantidadTotalCarrito.textContent = `${calcularTotalUnidades()}`;
 }
 
 //-----------------Vacía el Carrito---------------------------------------------------

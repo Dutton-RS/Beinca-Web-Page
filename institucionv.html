@@ -23,24 +23,28 @@
       <h1>
         Elije el colegio o institución donde quieres publicar tu producto.
       </h1>
+
+      <form action="https://formspree.io/f/mdknqwqy" method="post">
+        <label for="col">Colegio o Institución:</label>
+        <input type="text" id="col" name="col" required />
+        <br /><br />
+        <label for="tip">Nivel</label>
+        <select id="tip" name="tip">
+          <option value="jar">Jardín</option>
+          <option value="pri">Primario</option>
+          <option value="sec">Secundario</option>
+        </select>
+        <br /><br />
+        <label for="grad">Grado o Año:</label>
+        <input type="text" id="grad" name="grad" required />
+        <br />
+        <button type="submit">Enviar</button><br />
+      </form>
+      <br />
       <nav>
-        <form action="https://formspree.io/f/mdknqwqy" method="post">
-          <label for="col">Colegio o Institución:</label>
-          <input type="text" id="col" name="col" required />
-          <label for="tip">Nivel</label>
-          <select id="tip" name="tip">
-            <option value="jar">Jardín</option>
-            <option value="pri">Primario</option>
-            <option value="sec">Secundario</option>
-          </select>
-          <label for="grad">Grado o Año:</label>
-          <input type="text" id="grad" name="grad" required />
-          <button type="submit">Enviar</button><br />
-        </form>
-        <br />
-        <div><a href="rubrov.html" class="menu-link">SIGUIENTE</a></div>
-        <br />
         <a href="index.html" class="menu-link">Inicio</a>
+        <br />
+        <a href="rubrov.html" class="menu-link">SIGUIENTE</a>
       </nav>
     </main>
   </body>

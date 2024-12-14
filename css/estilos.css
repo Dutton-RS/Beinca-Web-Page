@@ -53,6 +53,32 @@ button {
     "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
 }
 
+/* Estilos generales para el menú --------------------------------------------------------------------------------*/
+nav {
+  display: flex; /* Usamos flexbox para organizar los enlaces */
+  justify-content: space-around; /* Distribuye los enlaces de manera uniforme */
+  flex-wrap: wrap; /* Permite que los enlaces pasen a la siguiente fila en pantallas pequeñas */
+  margin-bottom: 2px; /* Espaciado entre menús */
+  padding: 0 5px;
+}
+
+.menu-link {
+  text-decoration: none; /* Elimina el subrayado */
+  color: #fff; /* Color de texto */
+  padding: 10px 15px; /* Espaciado interno */
+  background-color: #333; /* Fondo de los enlaces */
+  margin: 5px; /* Espaciado entre enlaces */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+  box-sizing: border-box;
+}
+
+.menu-link:hover {
+  background-color: #007bff; /* Color de fondo cuando se pasa el ratón */
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
 button:hover {
   background-color: #08594c;
   color: rgb(255, 255, 255);
@@ -177,19 +203,18 @@ form {
   flex-wrap: wrap;
   flex-direction: row;
   background: rgb(14, 216, 213);
-  width: 70%;
-  height: auto;
   justify-content: center;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .item {
   background: rgb(38, 79, 105);
-  width: 20%;
-  height: 30%;
-  margin: auto;
+  width: 100%;
+  max-width: 45%;
+  margin: 5px;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px;
 }
 
 img {
@@ -278,6 +303,20 @@ td {
   height: auto;
 }
 /* Media Query */
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-link {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+}
 
 @media only screen and (max-width: 400px) {
   body {
