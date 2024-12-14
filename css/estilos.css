@@ -236,8 +236,8 @@ img {
 }
 
 .pdgb {
-  width: 400px;
-  height: 150px;
+  width: 325px;
+  height: 125px;
   display: block;
 }
 .container2 {
@@ -302,6 +302,15 @@ td {
   border: 1px solid gray;
   height: auto;
 }
+
+.listado-productos img {
+  width: 20%;
+  max-width: 400%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
 /* Media Query */
 
 /* Estilos responsivos */

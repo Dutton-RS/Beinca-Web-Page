@@ -21,57 +21,57 @@
 
     <main>
       <h1>A continuación completa los datos.</h1>
-      <nav>
-        <form action="https://formspree.io/f/mdknqwqy" method="post">
-          <div>
-            <label for="tipo">Tipo de Prenda:</label>
-            <select id="tipo" name="tipo">
-              <option value="b">Pantalón</option>
-              <option value="mb">Pollera</option>
-              <option value="cn">Camisa</option>
-              <option value="n">Sweater</option>
-              <option value="b">Buzo</option>
-              <option value="mb">Campera</option>
-              <option value="cn">Corbata</option>
-              <option value="n">Otro</option>
-            </select>
-          </div>
-          <br />
-          <label for="tall">Talle:</label>
-          <input type="text" id="tall" name="tall" required /><br /><br />
-          <div>
-            <label for="estado">Estado en que se encuentra?</label>
-            <select id="estado" name="estado">
-              <option value="b">Bueno</option>
-              <option value="mb">Muy Bueno</option>
-              <option value="cn">Como Nuevo</option>
-              <option value="n">Nuevo</option>
-            </select>
-          </div>
-          <br />
-          <label for="pre">Precio:</label>
-          <input type="text" id="pre" name="pre" /><br /><br />
-          <br />
-          <form
-            action="subir_imagen.php"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <label for="imagen">Sube la 1er. imagen del producto:</label>
-            <input type="file" id="imagen" name="imagen" accept="image/*" />
-            <br />
-            <label for="imagen">Sube la 2da. imagen del producto:</label>
-            <input type="file" id="imagen" name="imagen" accept="image/*" />
-            <br /><br />
-            <input type="submit" value="Subir Imágenes y enviar" />
-          </form>
-        </form>
-        <br />
+
+      <form action="https://formspree.io/f/mdknqwqy" method="post">
         <div>
-          <a href="/productopublicado.html" class="menu-link">PUBLICAR</a>
+          <label for="tipo">Tipo de Prenda:</label>
+          <select id="tipo" name="tipo">
+            <option value="b">Pantalón</option>
+            <option value="mb">Pollera</option>
+            <option value="cn">Camisa</option>
+            <option value="n">Sweater</option>
+            <option value="b">Buzo</option>
+            <option value="mb">Campera</option>
+            <option value="cn">Corbata</option>
+            <option value="n">Otro</option>
+          </select>
         </div>
         <br />
-        <a href="/index.html" class="menu-link">Inicio</a>
+        <label for="tall">Talle:</label>
+        <input type="text" id="tall" name="tall" required /><br /><br />
+        <div>
+          <label for="estado">Estado en que se encuentra?</label>
+          <select id="estado" name="estado">
+            <option value="b">Bueno</option>
+            <option value="mb">Muy Bueno</option>
+            <option value="cn">Como Nuevo</option>
+            <option value="n">Nuevo</option>
+          </select>
+        </div>
+        <br />
+        <label for="pre">Precio:</label>
+        <input type="text" id="pre" name="pre" /><br /><br />
+        <br />
+        <form
+          action="subir_imagen.php"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <label for="imagen">Sube la 1er. imagen del producto:</label>
+          <input type="file" id="imagen" name="imagen" accept="image/*" />
+          <br />
+          <label for="imagen">Sube la 2da. imagen del producto:</label>
+          <input type="file" id="imagen" name="imagen" accept="image/*" />
+          <br /><br />
+          <input type="submit" value="Subir Imágenes y enviar" />
+        </form>
+      </form>
+      <br />
+      <nav>
+        <a href="/index.html" class="menu-link" class="menu-link">Inicio</a>
+        <a href="/productopublicado.html" class="menu-link" class="menu-link"
+          >PUBLICAR</a
+        >
       </nav>
     </main>
   </body>
