@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nombre": "Krios G4 Cryo-TEM",
+    "descripcion": "Ergonomía mejorada.",
+    "descripcion2": "Se adapta más fácilmente a los laboratorios nuevos y existentes.",
+    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "imagen": "Krios_150x150.png",
+    "precio": 15000,
+    "stock": 20,
+    "detalle": "krios.html"
+  },
+  {
+    "id": 2,
+    "nombre": "Spectra-300",
+    "descripcion": "Electron Microscopy",
+    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "imagen": "Spectra-300_150x150.png",
+    "precio": 13000,
+    "stock": 15,
+    "detalle": "tombrowns.html"
+  },
+  {
+    "id": 3,
+    "nombre": "Spectra-200",
+    "descripcion": "Electron Microscopy",
+    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "imagen": "Spectra-200_150x150.png",
+    "precio": 11000,
+    "stock": 12,
+    "detalle": "mokingbird.html"
+  },
+  {
+    "id": 4,
+    "nombre": "Talos-F200X-TEM",
+    "descripcion": "Electron Microscopy",
+    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "imagen": "Talos-F200X-TEM-product-image-003-shadow.jpg",
+    "precio": 15000,
+    "stock": 16,
+    "detalle": "macbeth.html"
+  },
+  {
+    "id": 5,
+    "nombre": "Apreo-S-SEM",
+    "descripcion": "Electron Microscopy",
+    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
+    "imagen": "Apreo-S-SEM-HiVac-product-image-002-shadow.jpg",
+    "precio": 18000,
+    "stock": 9,
+    "detalle": "elaleph.html"
+  }
+]

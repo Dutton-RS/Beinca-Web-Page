@@ -1,7 +1,10 @@
+
+
 body {
-  background-color: rgb(152, 213, 250);
   text-align: center;
-  background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+  background-image: url(/imagenes\ y\ videos/celulas-microscopio_488220-4703.jpg);
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Roboto Flex", sans-serif;
@@ -12,34 +15,89 @@ body {
     "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
 }
 
+
+/*background-color: rgb(0, 181, 178);*/
 header {
-  background-color: rgb(255, 255, 255);
+  
   text-align: center;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
 }
 
+
+
+
+/*-----CONFIGURACION FOOTER--------------------------------------------------*/
 footer {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(38, 79, 105); */
   text-align: center;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
 }
+
+.container3 {
+  /* background: rgb(38, 79, 105); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+  height: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+/*-----FIN-CONFIGURACION FOOTER--------------------------------------------------*/
+
+/* h1 {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+} */
+
 h1 {
   color: rgb(14, 14, 14);
   margin-left: 0px;
 }
 
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+
 h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h4 {
   color: rgb(14, 14, 14);
   margin-left: 0px;
 }
+
+h5 { 
+  font-size: 16px;
+  color: rgb(185, 225, 241);
+
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
 button {
-  background-color: #06b3aa;
+  background-color: rgb(152, 213, 250);
+  width: 100%;
+  height: auto;
   color: #ffffff;
   padding: 1% 0.5%;
   border: 1px;
@@ -52,8 +110,7 @@ button {
   font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
     "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
 }
-
-/* Estilos generales para el menú --------------------------------------------------------------------------------*/
+/* menu link -----Estilos generales para el menú -------------------------------------------------------------*/
 nav {
   display: flex; /* Usamos flexbox para organizar los enlaces */
   justify-content: space-around; /* Distribuye los enlaces de manera uniforme */
@@ -66,8 +123,8 @@ nav {
   text-decoration: none; /* Elimina el subrayado */
   color: #fff; /* Color de texto */
   padding: 10px 15px; /* Espaciado interno */
-  background-color: #333; /* Fondo de los enlaces */
-  margin: 5px; /* Espaciado entre enlaces */
+  background-color: #004369; /* Fondo de los enlaces */
+  margin: 30px; /* Espaciado entre enlaces */
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
   box-sizing: border-box;
@@ -77,7 +134,162 @@ nav {
   background-color: #007bff; /* Color de fondo cuando se pasa el ratón */
 }
 
+
+.menu4 {
+  position: fixed; /* Fija el menú en la parte superior */
+  top: 0; /* Posición del menú */
+  background-color: rgb(255, 255, 255); /* Color de fondo del menú */
+  padding: 10px; /* Espaciado interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+  display: flex; /* Alinea los enlaces horizontalmente */
+  justify-content: space-between; /* Espaciado entre enlaces */
+}
+
+.menu4 a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: #fff; /* Color del texto */
+  margin: 0 10px; /* Espaciado entre enlaces */
+  transition: color 0.3s ease; /* Transición de color al pasar el ratón */
+}
+
+.menu4 a:hover {
+  color: #ccc; /* Cambia el color del texto al pasar el ratón */
+}
+
+.menu4.scrolled {
+  background-color: rgb(60, 100, 130); /* Cambia el color de fondo del menú cuando se hace scrolling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
 /*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*----menu link2----------------------------------------------------------------------------------------------*/
+.menu-link2 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: #fff; /* Color de texto */
+  padding: 10px 5px; /* Espaciado interno */
+  background-color: #026aab; /* Fondo de los enlaces */
+  margin: 0 auto; /* Espaciado entre enlaces */
+  border-radius: 20px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+  box-sizing: border-box;
+  text-align: center;
+  width: 80%;
+  height: auto;
+  
+}
+
+
+.menu-link2 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+/*background-color: rgb(0, 164, 145);*/
+
+/*----.menu-link3----------------------------------------------------------------------------------------------*/
+.menu-link3 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: rgb(38, 79, 105); /* Color de texto */
+  padding: 1px 18%; /* Espaciado interno */
+  background-color: #026aab; /* Fondo de los enlaces */
+  margin: 1px; /* Espaciado entre enlaces */
+  border-radius: 10px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.titulo {
+  margin-bottom: 20px;
+  background: rgb(38, 79, 105);
+  border-radius: 30px;
+}
+
+.titulo h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+/* .item {
+  margin: 10px;
+  text-align: center;
+} */
+
+.item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .menu-link {
+  text-decoration: none;
+  color: #0663a1;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+} */
+
+.menu-link:hover {
+  color: #0bd6aa;
+}
+/*------Items del menu de productos--------------------------------------------------*/
+.items-container {
+  
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Productos del menu principal en index */
+.item {
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922); /* Sombra */
+  width: 17%;
+  height: auto;
+  content: auto;
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  
+}
+.item img {
+  transition: transform 0.3s ease-in-out;
+  width: 100px;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item img:hover {
+  transform: scale(1.9);
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
 
 button:hover {
   background-color: #08594c;
@@ -116,15 +328,15 @@ form {
 }
 
 .ver-detalle {
-  background-color: #06b3aa;
+  background-color: #026aab;
   color: #ffffff;
   padding: 1% 0.5%;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
   margin: 1% auto;
   display: block;
-  width: 8%;
+  width: 20%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
   font-size: 100%;
   font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
@@ -184,44 +396,36 @@ form {
 
 /* Flex para logos de redes sociales */
 
-.container3 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  width: 50%;
-  height: 1fr;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Flex del menu con imágenes comprar por rubro*/
 
-.container {
+/* .container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: rgb(14, 216, 213);
+  background: rgb(255, 255, 255);
   justify-content: center;
   margin: 0 auto;
-  padding: 10px;
-}
+  padding: 100px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+} */
 
-.item {
-  background: rgb(38, 79, 105);
-  width: 100%;
-  max-width: 45%;
-  margin: 5px;
-  box-sizing: border-box;
-  padding: 10px;
-}
 
+
+
+/* .item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
 img {
   width: 100px;
   height: 120px;
   display: block;
-}
+} */
 
 .logo {
   width: 25px;
@@ -230,27 +434,74 @@ img {
 }
 
 .pdg {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 200px;
   display: block;
 }
 
+/* -----Logo de la empresa --------------------- */
 .pdgb {
-  width: 325px;
-  height: 125px;
+  width: 10%;
+  height: auto;
   display: block;
 }
-.container2 {
+
+/* -----Fin Logo de la empresa --------------------- */
+.container1 {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+
+.container5{
+  background-color: #026aab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 30px;
+  
+}
+/* display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   background: rgb(255, 255, 255);
   width: auto;
   height: 150px;
   justify-content: space-around;
-  margin: 20px 0;
+  margin: 20px 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+   */
+.container4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 10%;
+  height: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.titulo2 {
+  margin-bottom: 20px; /* Espacio entre el título y las opciones */
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.menu-link {
+  margin-bottom: 10px; /* Espacio entre las opciones */
+  
+}
+
 /*
 .item-2 {
   background: rgb(255, 255, 255);
@@ -290,26 +541,79 @@ td {
   border-bottom: auto solid grey;
   padding-top: 1em;
 }
-
+/*-------Menu de productos--------------------------------------------------*/
 .listado-productos {
+  width: 100%;
+  height: auto;
   display: grid;
-  padding: 1%;
+  padding: 0.5%;
   gap: 0.5em;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.922);
 }
 
 .listado-productos article {
-  padding: 0.5em;
+  color: #000000;
+  background: #026aab;
+  width: 50%;
+  padding: 0.5m;
   border: 1px solid gray;
-  height: auto;
-}
-
-.listado-productos img {
-  width: 20%;
-  max-width: 400%;
-  display: block;
   height: auto;
   margin: 0 auto;
 }
+
+.listado-productos img {
+  background: rgb(255, 255, 255);
+  width: 40%;
+  height: auto;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out
+}
+
+.listado-productos img:hover {
+  transform: scale(1.2);
+}
+
+/*-------FIN-Menu-de-productos--------------------------------------------------*/
+/* Flex */
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+.item2 img {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilo para el iframe */
+iframe {
+  width: 50%;
+  height: auto;
+  border: none;
+  aspect-ratio: 16 / 9; /* Mantiene la relación de aspecto 16:9 */
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.922);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
 
 /* Media Query */
 
@@ -329,7 +633,7 @@ td {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+    background-image: url(/imagenes\ y\ videos/fondoceleste.jpg);
     background: rgb(152, 213, 250);
     font-size: 10px;
   }
@@ -339,7 +643,7 @@ td {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+    background-image: url(/imagenes\ y\ videos/fondoceleste.jpg);
     background: rgb(152, 213, 250);
     font-size: 10px;
   }
@@ -349,7 +653,7 @@ td {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+    background-image: url(/imagenes\ y\ videos/fondoceleste.jpg);
     font-size: 16px;
     cursor: pointer;
   }
@@ -357,7 +661,7 @@ td {
 
 @media only screen and (min-width: 992px) {
   body {
-    background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+    background-image: url(/imagenes\ y\ videos/fondoceleste.jpg);
     font-size: 16px;
   }
 }
@@ -366,7 +670,7 @@ td {
 
 @media only screen and (min-width: 1200px) {
   body {
-    background-image: url(/imagenes\ y\ videos/Foto3.jpeg);
+    background-image: url(/imagenes\ y\ videos/celulas-microscopio_488220-4703.jpg);
     font-size: 16px;
   }
 }
