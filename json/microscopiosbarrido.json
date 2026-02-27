@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nombre": "SEM de Alta Resolución <br /> Visualización detallada de superficies micro y nanométricas",
+    "descripcion": "<h5>Equipos diseñados para capturar imágenes con excepcional <br /> profundidad de campo y nitidez superior.</h5>",
+    "descripcion2": "<h5>Ideales para: Nanotecnología / Ciencia de materiales / <br /> Microelectrónica / Investigación académica.</h5>",
+    "descripcion3": "<h5>Beneficios destacados: Imágenes de alta resolución / Gran profundidad de campo / <br /> Excelente contraste topográfico / Estabilidad y precisión superiores</h5>",
+    "imagen": "SEMAltaRes.jpg",
+    "precio": 15000,
+    "stock": 20,
+    "detalle": "contacto.html"
+  },
+  {
+    "id": 2,
+    "nombre": "SEM Analítico <br /> Imagen y análisis elemental integrados",
+    "descripcion": "<h5>Plataformas que combinan microscopía electrónica con técnicas <br /> de microanálisis químico para caracterización completa del material.</h5>",
+    "descripcion2": "<h5>Aplicaciones destacadas: Control de calidad industrial / Metalurgia / <br /> Fallas y fractografía / Desarrollo de nuevos materiales.</h5>",
+    "descripcion3": "<h5>Ventajas competitivas: Análisis elemental por EDS / Mapeo químico rápido y preciso / <br /> Resultados reproducibles / Optimización de tiempos de análisis.</h5>",
+    "imagen": "SEMAnalitico.jpg",
+    "precio": 13000,
+    "stock": 15,
+    "detalle": "contacto.html"
+  },
+  {
+    "id": 3,
+    "nombre": "SEM de Emisión de Campo (FE-SEM) <br /> Resolución ultra alta para investigación avanzada",
+    "descripcion": "<h5>Equipos con fuente de emisión de campo para lograr mayor resolución, <br /> estabilidad y rendimiento en muestras exigentes.</h5>",
+    "descripcion2": "<h5>Ideal para: Nanomateriales / Investigación avanzada / <br /> Dispositivos electrónicos / Recubrimientos delgados.</h5>",
+    "descripcion3": "<h5>Diferencial: Mayor brillo y coherencia del haz / Resolución mejorada a bajos voltajes / <br /> Ideal para muestras sensibles / Integración con técnicas analíticas avanzadas.</h5>",
+    "imagen": "SEMCampo.jpeg",
+    "precio": 11000,
+    "stock": 12,
+    "detalle": "contacto.html"
+  },
+  {
+    "id": 4,
+    "nombre": "SEM para Entornos Industriales <br /> Productividad y robustez operativa",
+    "descripcion": "<h5>Configuraciones diseñadas para operar en ambientes industriales <br /> con alta demanda y necesidad de resultados consistentes.</h5>",
+    "descripcion2": "<h5>Interfaces intuitivas / Automatización de rutinas.</h5>",
+    "descripcion3": "<h5>Integración con procesos de control / Alta confiabilidad y bajo mantenimiento.</h5>",
+    "imagen": "SEMAmbiental.jpg",
+    "precio": 15000,
+    "stock": 16,
+    "detalle": "contacto.html"
+  },
+  {
+    "id": 5,
+    "nombre": "¿Por qué elegir nuestras soluciones SEM?",
+    "descripcion": "<h5>Tecnología líder internacionalmente reconocida</h5>",
+    "descripcion2": "<h5>Alta calidad de imagen y análisis</h5>",
+    "descripcion3": "<h5>Adaptabilidad a múltiples industrias y aplicaciones</h5>",
+    "imagen": "PorqueElegirnos.jpeg",
+    "precio": 18000,
+    "stock": 9,
+    "detalle": "contacto.html"
+  }
+]

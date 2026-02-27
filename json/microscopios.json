@@ -1,57 +1,57 @@
 [
   {
     "id": 1,
-    "nombre": "Krios G4 Cryo-TEM",
-    "descripcion": "Ergonomía mejorada.",
-    "descripcion2": "Se adapta más fácilmente a los laboratorios nuevos y existentes.",
-    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "imagen": "Krios_150x150.png",
+    "nombre": "TEM de Alta Resolución (HRTEM) <br /> Visualización a nivel atómico",
+    "descripcion": "<h5>Equipos diseñados para revelar la estructura interna de materiales <br /> con precisión sub-ångström.</h5>",
+    "descripcion2": "<h5>Ideales para: Nanotecnología / Ciencia de materiales / <br /> Semiconductores / Investigación avanzada.</h5>",
+    "descripcion3": "<h5>Beneficios clave: Imágenes con resolución atómica / Corrección de aberraciones / <br /> Máxima estabilidad y precisión / Integración con técnicas analíticas avanzadas.</h5>",
+    "imagen": "TEMdeAltaResolución(HRTEM).jpg",
     "precio": 15000,
     "stock": 20,
-    "detalle": "krios.html"
+    "detalle": "contacto.html"
   },
   {
     "id": 2,
-    "nombre": "Spectra-300",
-    "descripcion": "Electron Microscopy",
-    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "imagen": "Spectra-300_150x150.png",
+    "nombre": "TEM Analítico (S/TEM) <br /> Imagen y composición química en un solo equipo",
+    "descripcion": "<h5>Equipos diseñados para revelar la estructura interna de materiales <br /> con precisión sub-ångström.</h5>",
+    "descripcion2": "<h5>Aplicaciones destacadas: Desarrollo de baterías y energías renovables / <br /> Metalurgia y aleaciones avanzadas / Microelectrónica / Catálisis.</h5>",
+    "descripcion3": "<h5>Ventajas competitivas: Mapeo elemental de alta resolución / <br /> Análisis químico cuantitativo / Flujo de trabajo optimizado / Alta reproducibilidad.</h5>",
+    "imagen": "STEMAnalíticoSTEM.jpg",
     "precio": 13000,
     "stock": 15,
-    "detalle": "tombrowns.html"
+    "detalle": "contacto.html"
   },
   {
     "id": 3,
-    "nombre": "Spectra-200",
-    "descripcion": "Electron Microscopy",
-    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "imagen": "Spectra-200_150x150.png",
+    "nombre": "Cryo-TEM para Ciencias de la Vida <br /> Estructuras biológicas en su estado nativo",
+    "descripcion": "<h5>Soluciones optimizadas para el estudio de proteínas, virus y complejos <br /> macromoleculares mediante vitrificación criogénica.</h5>",
+    "descripcion2": "<h5>Ideal para: Biología estructural / Investigación biomédica / Desarrollo farmacéutico.</h5>",
+    "descripcion3": "<h5>Diferencial: Preservación estructural sin alteraciones / <br /> Automatización avanzada / Reconstrucción 3D de alta precisión.</h5>",
+    "imagen": "Krios_CryoTEM.jpeg",
     "precio": 11000,
     "stock": 12,
-    "detalle": "mokingbird.html"
+    "detalle": "contacto.html"
   },
   {
     "id": 4,
-    "nombre": "Talos-F200X-TEM",
-    "descripcion": "Electron Microscopy",
-    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "imagen": "Talos-F200X-TEM-product-image-003-shadow.jpg",
+    "nombre": "Soluciones TEM para la Industria <br /> Productividad, confiabilidad y control",
+    "descripcion": "<h5>Configuraciones pensadas para entornos industriales que requieren <br /> rendimiento continuo y resultados consistentes.</h5>",
+    "descripcion2": "<h5>Protocolos automatizados / Alta robustez operativa.</h5>",
+    "descripcion3": "<h5>Integración con control de calidad / Reducción de tiempos de análisis.</h5>",
+    "imagen": "SolucionesparaIndustria.png",
     "precio": 15000,
     "stock": 16,
-    "detalle": "macbeth.html"
+    "detalle": "contacto.html"
   },
   {
     "id": 5,
-    "nombre": "Apreo-S-SEM",
-    "descripcion": "Electron Microscopy",
-    "descripcion2": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "descripcion3": "Óptima calidad de imagen para la reconstrucción 3D de alta resolución",
-    "imagen": "Apreo-S-SEM-HiVac-product-image-002-shadow.jpg",
+    "nombre": "¿Por qué elegir nuestras soluciones TEM?",
+    "descripcion": "<h5>Tecnología líder a nivel mundial</h5>",
+    "descripcion2": "<h5>Precisión y confiabilidad comprobada</h5>",
+    "descripcion3": "<h5>Escalabilidad y modularidad</h5>",
+    "imagen": "PorqueTEM.jpg",
     "precio": 18000,
     "stock": 9,
-    "detalle": "elaleph.html"
+    "detalle": "contacto.html"
   }
 ]

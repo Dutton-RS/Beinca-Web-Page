@@ -3,7 +3,7 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || []; // Inicializamo
 
 const cargarProductos = async () => {
   try {
-    const response = await fetch("/json/microscopios.json");
+    const response = await fetch("/json/microscopiosbarrido.json");
 
     if (!response.ok) {
       throw new Error(`Error al cargar productos: ${response.status}`);
