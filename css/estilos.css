@@ -618,38 +618,48 @@ td {
   padding-top: 1em;
 }
 /*-------Menu de productos--------------------------------------------------*/
+
+
 .listado-productos {
   width: 100%;
-  height: auto;
-  display: grid;
-  padding: 0.5%;
-  gap: 0.5em;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.922);
+  max-width: 900px;   /* controla el ancho del bloque */
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;   /* 🔥 uno debajo del otro */
+  gap: 20px;                /* espacio entre casillas */
 }
 
 .listado-productos article {
-  color: #000000;
   background: #026aab;
-  width: 50%;
-  padding: 0.5m;
-  border: 1px solid gray;
-  height: auto;
-  margin: 0 auto;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;          /* que ocupen todo el ancho del contenedor */
+  box-sizing: border-box;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.listado-productos article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .listado-productos img {
-  background: rgb(255, 255, 255);
-  width: 40%;
+  width: 60%;
   height: auto;
+  margin: 15px auto;
   display: block;
-  height: auto;
-  margin: 0 auto;
-  transition: transform 0.3s ease-in-out
+  transition: transform 0.3s ease;
 }
 
 .listado-productos img:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
+
 
 /*-------FIN-Menu-de-productos--------------------------------------------------*/
 /* Flex */
