@@ -238,6 +238,33 @@ nav {
 
 
 
+.menu-link4 {
+  text-decoration: none; /* Elimina el subrayado */
+  color: #fff; /* Color de texto */
+  padding: 10px 5px; /* Espaciado interno */
+  background-color: #026aab; /* Fondo de los enlaces */
+  margin: 0 auto; /* Espaciado entre enlaces */
+  border-radius: 20px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+  box-sizing: border-box;
+  text-align: left;
+  width: 80%;
+  height: auto;
+  
+}
+
+
+.menu-link4 h5 { 
+  font-size: 16px;
+  color: rgb(185, 225, 241);
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 100;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+
 /* .item {
   margin: 10px;
   text-align: center;
