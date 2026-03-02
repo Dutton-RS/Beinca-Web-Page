@@ -71,7 +71,7 @@ h1 {
 
 
 h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 
@@ -401,7 +401,7 @@ form {
 }
 
 .ver-detalle:hover {
-  background-color: #08594c;
+  background-color: rgb(11, 70, 106);
   color: rgb(255, 255, 255);
 }
 
@@ -467,7 +467,7 @@ form {
 
 /* -----Logo de la empresa --------------------- */
 .pdgb {
-  width: 10%;
+  width: 20%;
   height: auto;
   display: block;
 }
@@ -698,6 +698,60 @@ iframe {
   border-radius: 10px;
   padding: 10px;
   
+}
+
+/* boton whatsapp */
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #25D366;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* boton mail */
+.btn-mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  background-color:  #004369;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.btn-mail img {
+  display: block;
+}
+
+.btn-mail:hover {
+  background-color: #015b94;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 
